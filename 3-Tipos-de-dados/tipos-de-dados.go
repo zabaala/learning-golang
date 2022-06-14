@@ -39,6 +39,25 @@ func main() {
 	fmt.Println("A variavel 8 é do tipo: ", reflect.TypeOf(numero8))
 
 	// unsigned integers...
+	var numero10 uint = 10
+	fmt.Println(numero10)
+	fmt.Println("O numero 10 é do tipo:", reflect.TypeOf(numero10))
+
+	var numero11 uint8 = 11
+	fmt.Println(numero11)
+	fmt.Println("O numero 11 é do tipo:", reflect.TypeOf(numero11))
+
+	var numero12 uint16 = 12
+	fmt.Println(numero12)
+	fmt.Println("O numero 12 é do tipo:", reflect.TypeOf(numero12))
+
+	var numero13 uint32 = 13
+	fmt.Println(numero13)
+	fmt.Println("O numero 13 é do tipo:", reflect.TypeOf(numero13))
+
+	var numero14 uint64 = 143
+	fmt.Println(numero14)
+	fmt.Println("O numero 14 é do tipo:", reflect.TypeOf(numero14))
 
 	// FIM INTEIROS
 
