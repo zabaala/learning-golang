@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"reflect"
 )
@@ -58,7 +59,21 @@ func main() {
 	var numero14 uint64 = 143
 	fmt.Println(numero14)
 	fmt.Println("O numero 14 é do tipo:", reflect.TypeOf(numero14))
-
 	// FIM INTEIROS
 
+	// BOOLEANS
+	var ok bool = false
+	fmt.Println(ok)
+	fmt.Println("Ok é do tipo:", reflect.TypeOf(ok))
+
+	var nok bool = false
+	fmt.Println(nok)
+	fmt.Println("NOK é do tipo:", reflect.TypeOf(nok))
+	// FIM BOOLEAN
+
+	// ERROR
+	var erro error = errors.New("Algo errado não está certo")
+	fmt.Println(erro)
+	fmt.Println("Erro é do tipo:", reflect.TypeOf(erro))
+	// FIM ERROR
 }
